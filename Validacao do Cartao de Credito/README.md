@@ -39,5 +39,5 @@ validacao(numero_do_cartao);
 
 FLUXOGRAMA;
 
-link: https://www.lucidchart.com/documents/edit/d66f598b-fde2-4a41-a9c4-9471dfa438a0/0?shared=true&
+[Fluxograma do Cartão de Crédito.pdf](https://github.com/gigihirao/Laborat-ria-2018/files/2081528/Fluxograma.do.Cartao.de.Credito.pdf)
 
