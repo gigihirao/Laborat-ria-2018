@@ -16,7 +16,7 @@ function isValidCard(numb){
   }
   invertNumb = numbRev.reverse();
   
-  for (var j = 0 ; j < invertNumb.length ; j+=2){
+  for (var j = 1 ; j < invertNumb.length ; j+=2){
     doubleNumb = invertNumb[j] * 2;
     if (doubleNumb >= 10){
       newNumb = doubleNumb.toString().split("");
@@ -26,7 +26,7 @@ function isValidCard(numb){
     }
   }
 
-  for (var j = 1 ; j < invertNumb.length ;  j+=2) {
+  for (var j = 0 ; j < invertNumb.length ;  j+=2) {
     sumNumbs = parseInt(invertNumb[j]) + sumNumbs;
   }
 
